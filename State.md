@@ -62,6 +62,8 @@ could modify the state contained within them.
 Generated links can encode state as url paramaters  
 which will be transmitted when the link is clicked.
 
+<br/>
+
 ## HTTP Equiv
 
 The server can generate meta tags with a `http-equiv`  
@@ -69,5 +71,12 @@ attribute set to `refresh` that redirects the current page
 to a specified url. 
 
 This url can again contain state in it's url parameters.
+
+<br/>
+
+## Server
+
+For the most part state will be saved on  
+the server in either memory or a database.
 
 <br/>
